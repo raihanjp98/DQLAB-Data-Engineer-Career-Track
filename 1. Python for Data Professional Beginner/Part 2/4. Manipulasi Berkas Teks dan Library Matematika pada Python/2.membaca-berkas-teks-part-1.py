@@ -1,4 +1,3 @@
-> python -m pip install requests
 import requests
 url = "https://storage.googleapis.com/dqlab-dataset/hello.txt"
 response = requests.get(url)
