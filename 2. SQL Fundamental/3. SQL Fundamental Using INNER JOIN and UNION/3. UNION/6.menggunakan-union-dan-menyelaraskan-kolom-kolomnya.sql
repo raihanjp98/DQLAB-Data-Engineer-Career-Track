@@ -1,0 +1,13 @@
+SELECT 
+	CustomerName, 
+	ContactName, 
+	City, 
+	PostalCode
+FROM Customers
+UNION
+SELECT 
+	SupplierName, 
+	ContactName, 
+	City, 
+	PostalCode
+FROM Suppliers;
